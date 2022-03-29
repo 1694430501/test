@@ -26,6 +26,7 @@ public class Demo_13 {
         //将String类型转换成Date形式
         Date dd = df.parse(source);
         System.out.println(dd);
+        System.out.println(new SimpleDateFormat("yyyyMMddhhmmsssss").format(new Date()));
 
     }
 }

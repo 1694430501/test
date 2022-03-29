@@ -11,8 +11,9 @@ public class Demo_10 {
             System.out.println(String.format("%02d", a += 1));
             System.out.println(String.format("%4d", a += 1).replace(" ", "0"));
         }
-        System.out.println(String.format("%02d", 1));
+        System.out.println(String.format("%06d", 30));
         String uuid = UUID.randomUUID().toString().replaceAll("-", "");
         System.out.println(uuid);
+        //System.out.println(String.format("%05d", "30"));
     }
 }
