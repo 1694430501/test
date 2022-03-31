@@ -16,7 +16,10 @@ public class Hash {
         hm.put("2", "ls");
         hm.put("3", "zs");
         hm.put("4", "we");
-        hm.put("4", "we");
+        hm.put("4", "w");
+        hm.put(null, "we");
+        hm.put(null, null);
+        hm.put("5", null);
 
         for (Map.Entry<String, String> entry : hm.entrySet()) {
             System.out.println(entry.getKey() + "---" + entry.getValue());
