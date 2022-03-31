@@ -4,6 +4,7 @@ import java.util.Arrays;
  * @author: wz
  * @date: 2021/9/7 0007
  * 冒泡排序
+ *  相邻两数比较交换位置
  */
 public class Demo_03 {
     public static void main(String[] args) {

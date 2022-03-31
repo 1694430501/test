@@ -4,6 +4,7 @@ import java.util.Arrays;
  * @author: wz
  * @date: 2021/9/8 0008
  * 选择排序
+ *  找到最小值然后跟第一个值比较
  */
 public class Demo_04 {
     public static void main(String[] args) {

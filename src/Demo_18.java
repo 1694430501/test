@@ -20,12 +20,12 @@ public class Demo_18 {
 
 
         Pattern p = Pattern.compile("^(100|([1-9][0-9]?)|(0|[1-9][0-9]?)(?:\\.\\d{0,1}))?$");
-        System.out.println("0" + p.matcher("0").matches());
-        System.out.println("1" + p.matcher("1").matches());
-        System.out.println("1.1" + p.matcher("1.1").matches());
-        System.out.println("1.11" + p.matcher("1.11").matches());
-        System.out.println("10" + p.matcher("10").matches());
-        System.out.println("90.2" + p.matcher("10").matches());
+        System.out.println("0  " + p.matcher("0").matches());
+        System.out.println("1  " + p.matcher("1").matches());
+        System.out.println("1.1  " + p.matcher("1.1").matches());
+        System.out.println("1.11  " + p.matcher("1.11").matches());
+        System.out.println("10  " + p.matcher("10").matches());
+        System.out.println("90.2  " + p.matcher("10").matches());
 
 
     }

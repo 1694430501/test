@@ -9,7 +9,7 @@ public class Demo_10 {
         int a = 0;
         for (int i = 0; i < 5; i++) {
             System.out.println(String.format("%02d", a += 1));
-            System.out.println(String.format("%4d", a += 1).replace(" ", "0"));
+            System.out.println(String.format("%04d", a += 1).replace(" ", "0"));
         }
         System.out.println(String.format("%06d", 30));
         String uuid = UUID.randomUUID().toString().replaceAll("-", "");
