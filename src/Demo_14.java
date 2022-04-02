@@ -12,5 +12,9 @@ public class Demo_14 {
         Date d1 = new Date();
         String str = df1.format(d1);
         System.out.println(str);
+
+
+        String str1 = new SimpleDateFormat("yyyy年MM月dd日  hh:mm:ss").format(new Date());
+        System.out.println(str1);
     }
 }
