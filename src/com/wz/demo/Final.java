@@ -11,8 +11,8 @@ public class Final//extends CloneObject{
     public static void main(String[] args) {
         final String a = "dsf";
         //a = "asdf"; 报错
-        User user1 = new User();
-        User user2 = new User();
+        //User user1 = new User();
+        //User user2 = new User();
         //PropertyUtils.copyProperties(user2, user1);
 
         //BeanUtils.copyProperties(user1, user2);

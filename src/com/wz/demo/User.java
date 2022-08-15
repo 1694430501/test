@@ -9,8 +9,14 @@ import java.util.Objects;
  * Buddha Bless, No Bug !
  */
 public class User implements Serializable, Cloneable {
+
     private String id;
     private String name;
+
+    public User(String id, String name) {
+        this.id = id;
+        this.name = name;
+    }
 
     public String getId() {
         return id;
