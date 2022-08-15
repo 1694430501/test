@@ -12,5 +12,7 @@ public class STRING {
         String str2 = "def";
         String str3 = str1 + str2;
         System.out.println(str3 == "abcdef");// false
+        System.out.println("2022-06-01-2022-06-18".substring(0,10));
+        System.out.println("2022-06-01-2022-06-18".substring(11,21));
     }
 }
