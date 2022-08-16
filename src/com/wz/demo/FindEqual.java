@@ -12,13 +12,15 @@ import java.util.Objects;
 public class FindEqual {
     public static void main(String[] args) {
         String a = "2";
+        //String b = "11";
 
         List<User> userList = new ArrayList<>();
-        userList.add(new User("11", "2"));
+        userList.add(new User("222", "2"));
         userList.add(new User("1", "12"));
         userList.add(new User("1", "22"));
+        userList.add(new User("111", "2"));
 
-        User user = userList.stream().filter(s -> Objects.equals(s.getName(), a)).findFirst().orElse(null);
+        User user = userList.stream().filter(s -> Objects.equals(s.getName(), a)).findAny().orElse(null);
         System.out.println(user);
     }
 }
