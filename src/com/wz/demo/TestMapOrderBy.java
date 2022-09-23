@@ -15,7 +15,8 @@ public class TestMapOrderBy {
     public static void main(String[] args) {
         List<HashMap<String, Object>> baseNum = new ArrayList<>();
         HashMap<String, Object> map = new HashMap<>();
-        map.put("bjy", "5450");
+        System.out.println(map.get("asd"));
+       /* map.put("bjy", "5450");
         map.put("bjlb", "3");
         map.put("cbje", "205031.00");
         map.put("sqrq", "2022-01-04");
@@ -66,6 +67,6 @@ public class TestMapOrderBy {
             System.out.println(entry.getKey() + "---" + entry.getValue());
         }
 
-        System.out.println(baseNumByBJY);
+        System.out.println(baseNumByBJY);*/
     }
 }
