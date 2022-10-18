@@ -7,10 +7,11 @@ import java.util.Date;
  */
 public class Demo_15 {
     public static void main(String[] args) {
-        Long b = 10002L;
-        String dh = new SimpleDateFormat("yyyyMM").format(new Date()) + String.format("%05d", b);
-        System.out.println(dh);
-        System.out.println(String.format(new SimpleDateFormat("yyyyMM").format(new Date()) + String.format("%05d", b)));
-        System.out.println(new SimpleDateFormat("yyyyMMdd").format(new Date()));
+        //Long b = 10002L;
+        //String dh = new SimpleDateFormat("yyyyMM").format(new Date()) + String.format("%05d", b);
+        //System.out.println(dh);
+        //System.out.println(String.format(new SimpleDateFormat("yyyyMM").format(new Date()) + String.format("%05d", b)));
+        //System.out.println(new SimpleDateFormat("yyyyMMdd").format(new Date()));
+        System.out.println(new SimpleDateFormat("yyMM").format(new Date()));
     }
 }
