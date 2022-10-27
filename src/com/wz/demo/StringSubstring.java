@@ -7,12 +7,14 @@ package com.wz.demo;
  */
 public class StringSubstring {
     public static void main(String[] args) {
-        String sub = "32020180125001";
+        String sub = ": 32020221024218";
         System.out.println(sub.substring(0,3));
         System.out.println(sub.substring(3,14));
         String id = "id";// id
         String db = sub.substring(0,3);// 单别
         String dh = sub.substring(3,14);// 单号
         System.out.println(id + '\u0002' + db+ '\u0002' + dh);
+        System.out.println(sub.replace(":",""));
+        System.out.println(sub.replace("：","").trim());
     }
 }
